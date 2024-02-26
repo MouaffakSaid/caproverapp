@@ -21,7 +21,7 @@ COPY ./nodemon.json /src/nodemon.json
 ENV NODE_ENV development
 
 # Allows port 3000 to be publicly available
-ENV PORT 80
+ENV PORT 3000
 EXPOSE 3000
 
 # The command uses nodemon to run the application
